@@ -119,7 +119,7 @@ export default function PolitykaCookies() {
             </h2>
             <p>
               Przy pierwszej wizycie na stronie wyświetlany jest baner informujący o używaniu
-              plików cookies. Kontynuując przeglądanie strony lub klikając "Akceptuj wszystkie",
+              plików cookies. Kontynuując przeglądanie strony lub klikając &quot;Akceptuj wszystkie&quot;,
               użytkownik wyraża zgodę na używanie plików cookies zgodnie z ustawieniami.
             </p>
             <p>
