@@ -24,7 +24,7 @@ export async function createSession(): Promise<string> {
   return sessionId;
 }
 
-export async function verifySession(sessionId: string | undefined): Promise<boolean> {
+export async function verifySession(sessionId: string | null | undefined): Promise<boolean> {
   if (!sessionId) return false;
   // W produkcji sprawdź sesję w bazie danych lub cache
   // Tutaj używamy prostego sprawdzenia formatu
